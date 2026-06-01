@@ -15,13 +15,13 @@ Keep answers short — 2–3 sentences max.`;
   position:absolute;bottom:0;right:0;z-index:9001;
   width:52px;height:52px;border-radius:50%;
   background:#09090b;border:1px solid rgba(255,255,255,0.09);
-  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+  box-shadow:0 4px 12px rgba(0,0,0,0.18);
   display:flex;align-items:center;justify-content:center;
   cursor:pointer;transform-origin:center center;
   animation:tiaBubbleIn .55s cubic-bezier(0.34,1.56,0.64,1) both;
   transition:box-shadow .2s;
 }
-#tia-bubble:hover{box-shadow:0 12px 40px rgba(0,0,0,0.6);}
+#tia-bubble:hover{box-shadow:0 6px 16px rgba(0,0,0,0.28);}
 #tia-bubble.bubble-hidden{opacity:0;transform:scale(0.7);pointer-events:none;transition:opacity .25s ease,transform .25s ease;}
 #tia-bubble:not(.bubble-hidden){opacity:1;transform:scale(1);transition:opacity .35s cubic-bezier(0.34,1.56,0.64,1),transform .4s cubic-bezier(0.34,1.56,0.64,1);}
 #tia-bubble svg{width:22px;height:22px;stroke:rgba(232,232,232,0.9);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
